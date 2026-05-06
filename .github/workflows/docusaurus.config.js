@@ -14,7 +14,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'https://Leziah26.github.io',
-  baseUrl: '/DecentraLeziaHub/',
+  baseUrl: '/decentraleziahub/',
 
   // GitHub pages deployment config.
   organizationName: 'Leziah26',
