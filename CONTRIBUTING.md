@@ -1,88 +1,141 @@
 # 🤝 Contributing to DecentraLeziaHub
 
-We'd love your help building this learning hub! Whether you're fixing typos, adding new courses, or improving existing content, every contribution counts.
+Thank you for your interest in contributing! We're building this learning hub together for the Web3 community.
 
-## How to Contribute
+## 🎯 How You Can Contribute
 
-### 1. **Report Issues**
-Found an error or have suggestions? [Open an issue](https://github.com/Leziah26/DecentraLeziaHub/issues/new)
+### 1. **Add or Improve Content**
+- Write new lessons or tutorials
+- Fix typos and grammar
+- Add code examples
+- Improve existing explanations
+- Translate content
 
-### 2. **Add New Content**
+### 2. **Report Issues**
+- Found an error? [Open an issue](https://github.com/Leziah26/DecentraLeziaHub/issues)
+- Have suggestions? We'd love to hear them
+
+### 3. **Submit Pull Requests**
 - Fork the repository
-- Create a new branch: `git checkout -b docs/add-topic`
-- Add your Markdown file to the appropriate `/docs/` folder
-- Submit a pull request
+- Create a feature branch: `git checkout -b feature/your-feature`
+- Make your changes
+- Push to your fork: `git push origin feature/your-feature`
+- Open a Pull Request
 
-### 3. **Improve Existing Content**
-- Fix typos, unclear explanations, or outdated info
-- Add examples or practical exercises
-- Update broken links
-- Improve formatting
+## 📝 Content Guidelines
 
-## Content Guidelines
-
-### File Naming
-```
-01-topic-name/
-├── intro.md              # Overview
-├── lesson-01-basics.md   # Individual lessons
-├── lesson-02-advanced.md
-└── resources.md          # External links & tools
-```
-
-### Markdown Format
-
+### Lesson Structure
 ```markdown
 ---
-title: Topic Name
-description: Brief description
-tags: [web3, beginner]
+sidebar_position: 1
 ---
 
-# Topic Name
+# Lesson Title
 
-## Overview
-2-3 sentence introduction.
+## Learning Objectives
+- What readers will learn
 
-## Key Concepts
-- Concept 1
-- Concept 2
+## Introduction
+Brief intro to the topic
 
-## Deep Dive
-Detailed explanation...
+## Main Content
+- Key concepts
+- Explanations
+- Examples
 
 ## Practical Exercise
-Real-world example or exercise.
+Hands-on activity
+
+## Summary
+Key takeaways
 
 ## Next Steps
-- Link to related topics
-- Suggested resources
+What to learn next
 
 ## Resources
-- [External link](url)
-- [Tool](url)
+External links for deeper learning
 ```
 
 ### Writing Style
-- **Clear & Simple**: Explain like you're teaching a friend
-- **Jargon-free**: Define technical terms
-- **Practical**: Include examples & exercises
-- **Bite-sized**: Keep sections short (5-10 min reads)
-- **Inclusive**: Assume zero prior knowledge
+- **Beginner-friendly** - Explain jargon, no assumptions
+- **Practical** - Real examples, not just theory
+- **Engaging** - Use stories, analogies, visuals
+- **Clear** - Short paragraphs, bullet points
+- **Consistent** - Follow naming conventions
 
-## Content Checklist
+### Code Examples
+```jsx
+// Use proper syntax highlighting
+// Keep examples simple and focused
+// Add comments explaining what happens
 
-Before submitting:
-- [ ] Content is accurate and current
-- [ ] No external links are broken
-- [ ] Examples are practical
-- [ ] Formatting is consistent
-- [ ] Spelling/grammar checked
-- [ ] File is in correct folder
+const contract = new ethers.Contract(
+  ADDRESS,
+  ABI,
+  signer
+);
+```
 
-## Questions?
+## 🚀 Getting Started (For Developers)
 
-- Open a discussion: [GitHub Discussions](#)
-- Email: [contact info] (coming soon)
+### Prerequisites
+- Node.js 16+
+- Git
 
-Thank you for contributing! 🙏
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/Leziah26/DecentraLeziaHub.git
+cd DecentraLeziaHub
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm build
+```
+
+### File Structure
+```
+docs/
+├── intro.md                      # Homepage
+├── web3-basics/                  # Web3 learning path
+├── crypto-blockchain/            # Crypto learning path
+├── ai-tools/                     # AI learning path
+├── digital-marketing/            # Marketing learning path
+├── data-entry/                   # Data entry learning path
+├── career-transition/            # Career path
+├── opportunities/                # Opportunities path
+└── resources/                    # Resources path
+
+blog/
+├── 2026-01-01-tutorial.md       # Tutorials & case studies
+```
+
+## 📋 Checklist Before Submitting PR
+
+- [ ] Content is factually accurate
+- [ ] Writing is clear and beginner-friendly
+- [ ] No plagiarism (cite sources)
+- [ ] Links are working
+- [ ] Code examples run correctly
+- [ ] Images are optimized
+- [ ] Follows style guide
+- [ ] Added to appropriate section
+
+## 💬 Questions?
+
+- Open an [issue](https://github.com/Leziah26/DecentraLeziaHub/issues)
+- Check existing discussions
+- Join our community (Discord/Telegram coming soon)
+
+## 📜 License
+
+All contributions are licensed under CC BY 4.0
+
+---
+
+**Thank you for helping build the future of Web3 learning! 🚀**
